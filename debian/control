@@ -1,0 +1,21 @@
+## This file is part of Whonix.
+## Copyright (C) 2012 - 2014 Patrick Schleizer <adrelanos@riseup.net>
+## See the file COPYING for copying conditions.
+
+Source: swappiness-lowest
+Section: misc
+Priority: optional
+Maintainer: Patrick Schleizer <adrelanos@riseup.net>
+Build-Depends: debhelper (>= 8), faketime, git
+Homepage: https://github.com/Whonix/swappiness-lowest
+Vcs-Browser: https://github.com/Whonix/swappiness-lowest
+Vcs-Git: https://github.com/Whonix/swappiness-lowest.git
+Standards-Version: 3.9.4
+
+Package: swappiness-lowest
+Architecture: all
+Depends: ${misc:Depends}
+Description: Let the kernel only swap if it is absolutely necessary using /etc/sysctl.d
+ Sets vm.swappiness to the lowest possible value, which is 0. Experience has
+ shown, that in virtual machines have better performance when using this
+ setting.
