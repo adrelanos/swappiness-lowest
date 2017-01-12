@@ -1,3 +1,22 @@
+commit dc6f9473a1192182433cd31cbaacab85b6aeb0e9
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Dec 24 21:31:25 2016 +0100
+
+    increase vm.swappiness from 0 to 1
+    
+    Better not be set to zero:
+    - https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Performance_Tuning_Guide/s-memory-tunables.html
+    - https://en.wikipedia.org/wiki/Swappiness
+    
+    Noticed this since Chris Laprise mentioned this:
+    https://groups.google.com/d/msg/qubes-devel/brWPRteqCUU/_Y9nkG4qCwAJ
+
+commit b627d6f8d29eebe45e11d16ed966520bbcee8087
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Dec 10 02:32:09 2016 +0000
+
+    bumped changelog version
+
 commit e9b334bd3e44d825f440d2528f3520329aa9bddb
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Mon Nov 21 17:43:00 2016 +0000
