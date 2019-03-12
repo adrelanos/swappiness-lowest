@@ -1,3 +1,9 @@
+swappiness-lowest (3:1.8-1) unstable; urgency=medium
+
+  * New upstream version (local package).
+
+ -- Patrick Schleizer <adrelanos@riseup.net>  Tue, 12 Mar 2019 11:37:56 +0000
+
 swappiness-lowest (3:1.7-1) unstable; urgency=medium
 
   * New upstream version (local package).
