@@ -1,3 +1,27 @@
+commit 45287a69a0ca89effd47dae4a2001a1451e31063
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Apr 2 07:22:50 2020 -0400
+
+    readme
+
+commit 393151be78c7a952750b44709f91828c1ac4c3ce
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Apr 1 16:57:33 2020 -0400
+
+    remove genmkfile
+
+commit 8a49fcf69d685b165fb6d1e3b22a57aa315d90f0
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Apr 1 16:33:30 2020 -0400
+
+    add debian install file
+
+commit 7608b83f45f14b7f57c5477998b74d76e43401a6
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Apr 1 11:00:50 2020 -0400
+
+    bumped changelog version
+
 commit 154386e9cc299fbed0f1a3d35e5a77dd5049a1ff
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed Apr 1 08:49:59 2020 -0400
